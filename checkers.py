@@ -305,7 +305,7 @@ def red_jump_recurse(state: State, piece: Piece):
             if piece_to_move.y == 0:
                 piece_to_move.colour = 'R'
 
-            if not black_jump_moves(state_copy, piece_to_move):
+            if not red_jump_moves(state_copy, piece_to_move):
                 state_copy.curr_turn = get_next_turn(state_copy.curr_turn)
                 results.append(state_copy)
             else:
