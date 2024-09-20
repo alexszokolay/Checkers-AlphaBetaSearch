@@ -1,4 +1,4 @@
-# Hua-Rong-Dao-Search
+# Checkers
 
 CSC384H1: Introduction to Artificial Intelligence\
 Assignment 2
